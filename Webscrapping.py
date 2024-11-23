@@ -75,9 +75,9 @@ for i in range(len(bus_names)):
 # Convert Data to DataFrame
 bus_route_details = pd.DataFrame(bus_data)
 
-# Display or Save the Data
+# Save the Data
 print(bus_route_details)
 bus_route_details.to_csv("bus_route_details.csv", index=False)
 
-# Close Driver
+
 driver.quit()
